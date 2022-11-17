@@ -14,8 +14,6 @@ export default function CardList() {
         dispatch(getUsersData())
     },[])
 
-
-
   return (
     <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center grid-cols-1 mt-8">
         {loading 
